@@ -1,0 +1,2004 @@
+{
+   "observation_unit_details" : [
+      {
+         "country" : "GER",
+         "longitude" : "9.57073",
+         "source_id" : "7000",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Aa-0",
+         "comment" : "NA",
+         "latitude" : "50.9167"
+      },
+      {
+         "country" : "FRA",
+         "longitude" : "1.3",
+         "source_id" : "6897",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Ag-0",
+         "comment" : "NA",
+         "latitude" : "45.0"
+      },
+      {
+         "country" : "ESP",
+         "longitude" : "-3.22",
+         "source_id" : "6988",
+         "kbase_id" : "test-kb|....",
+         "region" : "Southern Europe",
+         "nativenames" : "Alc-0",
+         "comment" : "NA",
+         "latitude" : "40.31"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "16.5",
+         "source_id" : "8230",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Algutsrum",
+         "comment" : "NA",
+         "latitude" : "56.68"
+      },
+      {
+         "country" : "BEL",
+         "longitude" : "4.4",
+         "source_id" : "6898",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "An-1",
+         "comment" : "NA",
+         "latitude" : "51.2167"
+      },
+      {
+         "country" : "BEL",
+         "longitude" : "5.3",
+         "source_id" : "8254",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Ang-0",
+         "comment" : "NA",
+         "latitude" : "50.3"
+      },
+      {
+         "country" : "UK",
+         "longitude" : "-4.79821",
+         "source_id" : "7014",
+         "kbase_id" : "test-kb|....",
+         "region" : "Northern Europe",
+         "nativenames" : "Ba-1",
+         "comment" : "NA",
+         "latitude" : "56.5459"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "12.9",
+         "source_id" : "8256",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "B\u00c3\u00a51-2",
+         "comment" : "NA",
+         "latitude" : "56.4"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "12.9",
+         "source_id" : "8258",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "B\u00c3\u00a54-1",
+         "comment" : "NA",
+         "latitude" : "56.4"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "12.9",
+         "source_id" : "8259",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "B\u00c3\u00a55-1",
+         "comment" : "NA",
+         "latitude" : "56.4"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "11.0",
+         "source_id" : "6899",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Bay-0",
+         "comment" : "NA",
+         "latitude" : "49.0"
+      },
+      {
+         "country" : "USA",
+         "longitude" : "-122.305",
+         "source_id" : "6709",
+         "kbase_id" : "test-kb|....",
+         "region" : "Pacific Northwest",
+         "nativenames" : "Bg-2",
+         "comment" : "NA",
+         "latitude" : "47.6479"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "18.484",
+         "source_id" : "6900",
+         "kbase_id" : "test-kb|....",
+         "region" : "N Sweden",
+         "nativenames" : "Bil-5",
+         "comment" : "NA",
+         "latitude" : "63.324"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "18.484",
+         "source_id" : "6901",
+         "kbase_id" : "test-kb|....",
+         "region" : "N Sweden",
+         "nativenames" : "Bil-7",
+         "comment" : "NA",
+         "latitude" : "63.324"
+      },
+      {
+         "country" : "ESP",
+         "longitude" : "2.8",
+         "source_id" : "8264",
+         "kbase_id" : "test-kb|....",
+         "region" : "Southern Europe",
+         "nativenames" : "Bla-1",
+         "comment" : "NA",
+         "latitude" : "41.6833"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "19.0",
+         "source_id" : "8265",
+         "kbase_id" : "test-kb|....",
+         "region" : "Eastern Europe",
+         "nativenames" : "Blh-1",
+         "comment" : "NA",
+         "latitude" : "48.0"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "13.51",
+         "source_id" : "8266",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Boo2-1",
+         "comment" : "NA",
+         "latitude" : "55.86"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "16.2326",
+         "source_id" : "5837",
+         "kbase_id" : "test-kb|....",
+         "region" : "Moravia",
+         "nativenames" : "Bor-1",
+         "comment" : "NA",
+         "latitude" : "49.4013"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "16.2326",
+         "source_id" : "6903",
+         "kbase_id" : "test-kb|....",
+         "region" : "Moravia",
+         "nativenames" : "Bor-4",
+         "comment" : "NA",
+         "latitude" : "49.4013"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "16.6166",
+         "source_id" : "6904",
+         "kbase_id" : "test-kb|....",
+         "region" : "Moravia",
+         "nativenames" : "Br-0",
+         "comment" : "NA",
+         "latitude" : "49.2"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "16.0",
+         "source_id" : "8231",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Br\u00c3\u00b61-6",
+         "comment" : "NA",
+         "latitude" : "56.3"
+      },
+      {
+         "country" : "SUI",
+         "longitude" : "7.5",
+         "source_id" : "8270",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Bs-1",
+         "comment" : "NA",
+         "latitude" : "47.5"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "9.5",
+         "source_id" : "8271",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Bu-0",
+         "comment" : "NA",
+         "latitude" : "50.5"
+      },
+      {
+         "country" : "USA",
+         "longitude" : "-122.755",
+         "source_id" : "7033",
+         "kbase_id" : "test-kb|....",
+         "region" : "Northern California",
+         "nativenames" : "Buckhorn Pass",
+         "comment" : "NA",
+         "latitude" : "41.3599"
+      },
+      {
+         "country" : "IRL",
+         "longitude" : "-6.2",
+         "source_id" : "6905",
+         "kbase_id" : "test-kb|....",
+         "region" : "Northern Europe",
+         "nativenames" : "Bur-0",
+         "comment" : "NA",
+         "latitude" : "54.1"
+      },
+      {
+         "country" : "POR",
+         "longitude" : "-8.42639",
+         "source_id" : "6906",
+         "kbase_id" : "test-kb|....",
+         "region" : "Southern Europe",
+         "nativenames" : "C24",
+         "comment" : "NA",
+         "latitude" : "40.2077"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "8.26607",
+         "source_id" : "7062",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Ca-0",
+         "comment" : "NA",
+         "latitude" : "50.2981"
+      },
+      {
+         "country" : "ESP",
+         "longitude" : "-13.4811",
+         "source_id" : "8274",
+         "kbase_id" : "test-kb|....",
+         "region" : "Southern Europe",
+         "nativenames" : "Can-0",
+         "comment" : "NA",
+         "latitude" : "29.2144"
+      },
+      {
+         "country" : "FRA",
+         "longitude" : "0.5",
+         "source_id" : "8275",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Cen-0",
+         "comment" : "NA",
+         "latitude" : "49.0"
+      },
+      {
+         "country" : "UK",
+         "longitude" : "-0.6383",
+         "source_id" : "6907",
+         "kbase_id" : "test-kb|....",
+         "region" : "Northern Europe",
+         "nativenames" : "CIBC-17",
+         "comment" : "NA",
+         "latitude" : "51.4083"
+      },
+      {
+         "country" : "UK",
+         "longitude" : "-0.6383",
+         "source_id" : "6908",
+         "kbase_id" : "test-kb|....",
+         "region" : "Northern Europe",
+         "nativenames" : "CIBC-5",
+         "comment" : "NA",
+         "latitude" : "51.4083"
+      },
+      {
+         "country" : "UK",
+         "longitude" : "1.1",
+         "source_id" : "7064",
+         "kbase_id" : "test-kb|....",
+         "region" : "England",
+         "nativenames" : "Cnt-1",
+         "comment" : "NA",
+         "latitude" : "51.3"
+      },
+      {
+         "country" : "POR",
+         "longitude" : "-8.42639",
+         "source_id" : "7081",
+         "kbase_id" : "test-kb|....",
+         "region" : "Southern Europe",
+         "nativenames" : "Co",
+         "comment" : "NA",
+         "latitude" : "40.2077"
+      },
+      {
+         "country" : "USA",
+         "longitude" : "-92.3",
+         "source_id" : "6909",
+         "kbase_id" : "test-kb|....",
+         "region" : "Midwest",
+         "nativenames" : "Col-0",
+         "comment" : "NA",
+         "latitude" : "38.3"
+      },
+      {
+         "country" : "ITA",
+         "longitude" : "15.0",
+         "source_id" : "6910",
+         "kbase_id" : "test-kb|....",
+         "region" : "Southern Europe",
+         "nativenames" : "Ct-1",
+         "comment" : "NA",
+         "latitude" : "37.3"
+      },
+      {
+         "country" : "CPV",
+         "longitude" : "-23.6167",
+         "source_id" : "6911",
+         "kbase_id" : "test-kb|....",
+         "region" : "Macaronesia",
+         "nativenames" : "Cvi-0",
+         "comment" : "NA",
+         "latitude" : "15.1111"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "",
+         "source_id" : "7460",
+         "kbase_id" : "test-kb|....",
+         "region" : "Eastern Europe",
+         "nativenames" : "Da(1)-12",
+         "comment" : "NA",
+         "latitude" : ""
+      },
+      {
+         "country" : "GER",
+         "longitude" : "8.65081",
+         "source_id" : "7094",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Da-0",
+         "comment" : "NA",
+         "latitude" : "49.8724"
+      },
+      {
+         "country" : "USA",
+         "longitude" : "-87.1923",
+         "source_id" : "8233",
+         "kbase_id" : "test-kb|....",
+         "region" : "Midwest",
+         "nativenames" : "Dem-4",
+         "comment" : "NA",
+         "latitude" : "41.1876"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "14.12",
+         "source_id" : "8283",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Dra3-1",
+         "comment" : "NA",
+         "latitude" : "55.76"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "16.2815",
+         "source_id" : "8284",
+         "kbase_id" : "test-kb|....",
+         "region" : "Moravia",
+         "nativenames" : "DraII-1",
+         "comment" : "NA",
+         "latitude" : "49.4112"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "16.2815",
+         "source_id" : "8285",
+         "kbase_id" : "test-kb|....",
+         "region" : "Moravia",
+         "nativenames" : "DraIII-1",
+         "comment" : "NA",
+         "latitude" : "49.4112"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "16.2",
+         "source_id" : "6008",
+         "kbase_id" : "test-kb|....",
+         "region" : "Moravia",
+         "nativenames" : "Duk",
+         "comment" : "NA",
+         "latitude" : "49.1"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "18.177",
+         "source_id" : "6009",
+         "kbase_id" : "test-kb|....",
+         "region" : "N Sweden",
+         "nativenames" : "Eden-1",
+         "comment" : "NA",
+         "latitude" : "62.877"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "18.177",
+         "source_id" : "6913",
+         "kbase_id" : "test-kb|....",
+         "region" : "N Sweden",
+         "nativenames" : "Eden-2",
+         "comment" : "NA",
+         "latitude" : "62.877"
+      },
+      {
+         "country" : "UK",
+         "longitude" : "-3.160278",
+         "source_id" : "6914",
+         "kbase_id" : "test-kb|....",
+         "region" : "Northern Europe",
+         "nativenames" : "Edi-0",
+         "comment" : "NA",
+         "latitude" : "55.949444"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "18.4",
+         "source_id" : "6016",
+         "kbase_id" : "test-kb|....",
+         "region" : "N Sweden",
+         "nativenames" : "Eds-1",
+         "comment" : "NA",
+         "latitude" : "62.9"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "6.3",
+         "source_id" : "6915",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Ei-2",
+         "comment" : "NA",
+         "latitude" : "50.3"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "8.5",
+         "source_id" : "8290",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "En-1",
+         "comment" : "NA",
+         "latitude" : "50.0"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "8.38912",
+         "source_id" : "7123",
+         "kbase_id" : "test-kb|....",
+         "region" : "Taunus Mountains",
+         "nativenames" : "Ep-0",
+         "comment" : "NA",
+         "latitude" : "50.1721"
+      },
+      {
+         "country" : "RUS",
+         "longitude" : "25.3",
+         "source_id" : "6916",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "Est-1",
+         "comment" : "NA",
+         "latitude" : "58.3"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "18.3174",
+         "source_id" : "6917",
+         "kbase_id" : "test-kb|....",
+         "region" : "N Sweden",
+         "nativenames" : "F\u00c3\u00a4b-2",
+         "comment" : "NA",
+         "latitude" : "63.0165"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "18.3174",
+         "source_id" : "6918",
+         "kbase_id" : "test-kb|....",
+         "region" : "N Sweden",
+         "nativenames" : "F\u00c3\u00a4b-4",
+         "comment" : "NA",
+         "latitude" : "63.0165"
+      },
+      {
+         "country" : "POR",
+         "longitude" : "-8.32",
+         "source_id" : "8215",
+         "kbase_id" : "test-kb|....",
+         "region" : "Southern Europe",
+         "nativenames" : "Fei-0",
+         "comment" : "NA",
+         "latitude" : "40.5"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "14.29",
+         "source_id" : "8422",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Fj\u00c3\u00a41-1",
+         "comment" : "NA",
+         "latitude" : "56.06"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "8.0",
+         "source_id" : "6919",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Ga-0",
+         "comment" : "NA",
+         "latitude" : "50.3"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "10.5",
+         "source_id" : "8296",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Gd-1",
+         "comment" : "NA",
+         "latitude" : "53.5"
+      },
+      {
+         "country" : "SUI",
+         "longitude" : "6.08",
+         "source_id" : "8297",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Ge-0",
+         "comment" : "NA",
+         "latitude" : "46.5"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "8.67825",
+         "source_id" : "7147",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Gie-0",
+         "comment" : "NA",
+         "latitude" : "50.584"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "9.9355",
+         "source_id" : "6920",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Got-22",
+         "comment" : "NA",
+         "latitude" : "51.5338"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "9.9355",
+         "source_id" : "6921",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Got-7",
+         "comment" : "NA",
+         "latitude" : "51.5338"
+      },
+      {
+         "country" : "AUT",
+         "longitude" : "15.5",
+         "source_id" : "8300",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "Gr-1",
+         "comment" : "NA",
+         "latitude" : "47.0"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "8.0",
+         "source_id" : "6922",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Gu-0",
+         "comment" : "NA",
+         "latitude" : "50.3"
+      },
+      {
+         "country" : "FRA",
+         "longitude" : "2.0",
+         "source_id" : "8214",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Gy-0",
+         "comment" : "NA",
+         "latitude" : "49.0"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "15.0",
+         "source_id" : "7461",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "H55",
+         "comment" : "NA",
+         "latitude" : "49.0"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "9.73569",
+         "source_id" : "7163",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Ha-0",
+         "comment" : "NA",
+         "latitude" : "52.3721"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "17.1",
+         "source_id" : "8235",
+         "kbase_id" : "test-kb|....",
+         "region" : "Moravia",
+         "nativenames" : "Hod",
+         "comment" : "NA",
+         "latitude" : "48.8"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "13.74",
+         "source_id" : "8423",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Hov2-1",
+         "comment" : "NA",
+         "latitude" : "56.1"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "13.74",
+         "source_id" : "8306",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Hov4-1",
+         "comment" : "NA",
+         "latitude" : "56.1"
+      },
+      {
+         "country" : "UK",
+         "longitude" : "-0.6383",
+         "source_id" : "6923",
+         "kbase_id" : "test-kb|....",
+         "region" : "Northern Europe",
+         "nativenames" : "HR-10",
+         "comment" : "NA",
+         "latitude" : "51.4083"
+      },
+      {
+         "country" : "UK",
+         "longitude" : "-0.6383",
+         "source_id" : "6924",
+         "kbase_id" : "test-kb|....",
+         "region" : "Northern Europe",
+         "nativenames" : "HR-5",
+         "comment" : "NA",
+         "latitude" : "51.4083"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "9.44",
+         "source_id" : "8310",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Hs-0",
+         "comment" : "NA",
+         "latitude" : "52.24"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "15.76",
+         "source_id" : "8236",
+         "kbase_id" : "test-kb|....",
+         "region" : "Moravia",
+         "nativenames" : "HSm",
+         "comment" : "NA",
+         "latitude" : "49.33"
+      },
+      {
+         "country" : "AUT",
+         "longitude" : "11.5",
+         "source_id" : "8311",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "In-0",
+         "comment" : "NA",
+         "latitude" : "47.5"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "7.5",
+         "source_id" : "8312",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Is-0",
+         "comment" : "NA",
+         "latitude" : "50.5"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "16.6166",
+         "source_id" : "7424",
+         "kbase_id" : "test-kb|....",
+         "region" : "Moravia",
+         "nativenames" : "Jl-3",
+         "comment" : "NA",
+         "latitude" : "49.2"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "15.0",
+         "source_id" : "8313",
+         "kbase_id" : "test-kb|....",
+         "region" : "Eastern Europe",
+         "nativenames" : "Jm-0",
+         "comment" : "NA",
+         "latitude" : "49.0"
+      },
+      {
+         "country" : "AUT",
+         "longitude" : "14.0",
+         "source_id" : "8314",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Ka-0",
+         "comment" : "NA",
+         "latitude" : "47.0"
+      },
+      {
+         "country" : "IND",
+         "longitude" : "77.0",
+         "source_id" : "8424",
+         "kbase_id" : "test-kb|....",
+         "region" : "South Asia",
+         "nativenames" : "Kas-2",
+         "comment" : "NA",
+         "latitude" : "35.0"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "13.1",
+         "source_id" : "8237",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "K\u00c3\u00a4vlinge-1",
+         "comment" : "NA",
+         "latitude" : "55.8"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "8.5333",
+         "source_id" : "8420",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Kelsterbach-4",
+         "comment" : "NA",
+         "latitude" : "50.0667"
+      },
+      {
+         "country" : "USA",
+         "longitude" : "-85.37",
+         "source_id" : "6926",
+         "kbase_id" : "test-kb|....",
+         "region" : "Midwest",
+         "nativenames" : "Kin-0",
+         "comment" : "NA",
+         "latitude" : "44.46"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "13.4",
+         "source_id" : "6040",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Kni-1",
+         "comment" : "NA",
+         "latitude" : "55.66"
+      },
+      {
+         "country" : "USA",
+         "longitude" : "-86.621",
+         "source_id" : "6927",
+         "kbase_id" : "test-kb|....",
+         "region" : "Midwest",
+         "nativenames" : "Kno-10",
+         "comment" : "NA",
+         "latitude" : "41.2816"
+      },
+      {
+         "country" : "USA",
+         "longitude" : "-86.621",
+         "source_id" : "6928",
+         "kbase_id" : "test-kb|....",
+         "region" : "Midwest",
+         "nativenames" : "Kno-18",
+         "comment" : "NA",
+         "latitude" : "41.2816"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "7.0",
+         "source_id" : "8239",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "K\u00c3\u00b6ln",
+         "comment" : "NA",
+         "latitude" : "51.0"
+      },
+      {
+         "country" : "TJK",
+         "longitude" : "68.49",
+         "source_id" : "6929",
+         "kbase_id" : "test-kb|....",
+         "region" : "Central Asia",
+         "nativenames" : "Kondara",
+         "comment" : "NA",
+         "latitude" : "38.48"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "13.196",
+         "source_id" : "8240",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Kulturen-1",
+         "comment" : "NA",
+         "latitude" : "55.705"
+      },
+      {
+         "country" : "KAZ",
+         "longitude" : "73.1",
+         "source_id" : "6930",
+         "kbase_id" : "test-kb|....",
+         "region" : "Central Asia",
+         "nativenames" : "Kz-1",
+         "comment" : "NA",
+         "latitude" : "49.5"
+      },
+      {
+         "country" : "KAZ",
+         "longitude" : "73.1",
+         "source_id" : "6931",
+         "kbase_id" : "test-kb|....",
+         "region" : "Central Asia",
+         "nativenames" : "Kz-9",
+         "comment" : "NA",
+         "latitude" : "49.5"
+      },
+      {
+         "country" : "UK",
+         "longitude" : "-4.0",
+         "source_id" : "8323",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "Lc-0",
+         "comment" : "NA",
+         "latitude" : "57.0"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "10.8719",
+         "source_id" : "6932",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Ler-1",
+         "comment" : "NA",
+         "latitude" : "47.984"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "8.0666",
+         "source_id" : "7231",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "Li-7",
+         "comment" : "NA",
+         "latitude" : "50.3833"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "13.821",
+         "source_id" : "8241",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Liarum",
+         "comment" : "NA",
+         "latitude" : "55.9473"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "15.7884",
+         "source_id" : "8242",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Lill\u00c3\u00b6-1",
+         "comment" : "NA",
+         "latitude" : "56.1494"
+      },
+      {
+         "country" : "POL",
+         "longitude" : "19.3",
+         "source_id" : "8325",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "Lip-0",
+         "comment" : "NA",
+         "latitude" : "50.0"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "14.775",
+         "source_id" : "8326",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Lis-1",
+         "comment" : "NA",
+         "latitude" : "56.0328"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "14.775",
+         "source_id" : "8222",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Lis-2",
+         "comment" : "NA",
+         "latitude" : "56.0328"
+      },
+      {
+         "country" : "NED",
+         "longitude" : "4.5667",
+         "source_id" : "8430",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "Lisse",
+         "comment" : "NA",
+         "latitude" : "52.25"
+      },
+      {
+         "country" : "ESP",
+         "longitude" : "2.49",
+         "source_id" : "6933",
+         "kbase_id" : "test-kb|....",
+         "region" : "Southern Europe",
+         "nativenames" : "LL-0",
+         "comment" : "NA",
+         "latitude" : "41.59"
+      },
+      {
+         "country" : "FRA",
+         "longitude" : "0.5",
+         "source_id" : "8329",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Lm-2",
+         "comment" : "NA",
+         "latitude" : "48.0"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "13.9",
+         "source_id" : "6042",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Lom1-1",
+         "comment" : "NA",
+         "latitude" : "56.09"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "18.079",
+         "source_id" : "6043",
+         "kbase_id" : "test-kb|....",
+         "region" : "N Sweden",
+         "nativenames" : "L\u00c3\u00b6v-1",
+         "comment" : "NA",
+         "latitude" : "62.801"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "18.079",
+         "source_id" : "6046",
+         "kbase_id" : "test-kb|....",
+         "region" : "N Sweden",
+         "nativenames" : "L\u00c3\u00b6v-5",
+         "comment" : "NA",
+         "latitude" : "62.801"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "16.81",
+         "source_id" : "7520",
+         "kbase_id" : "test-kb|....",
+         "region" : "Moravia",
+         "nativenames" : "Lp2-2",
+         "comment" : "NA",
+         "latitude" : "49.38"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "16.81",
+         "source_id" : "7521",
+         "kbase_id" : "test-kb|....",
+         "region" : "Moravia",
+         "nativenames" : "Lp2-6",
+         "comment" : "NA",
+         "latitude" : "49.38"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "13.2",
+         "source_id" : "8334",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Lu-1",
+         "comment" : "NA",
+         "latitude" : "55.71"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "13.2",
+         "source_id" : "8335",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Lund",
+         "comment" : "NA",
+         "latitude" : "55.71"
+      },
+      {
+         "country" : "FRA",
+         "longitude" : "3.3",
+         "source_id" : "6936",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Lz-0",
+         "comment" : "NA",
+         "latitude" : "46.0"
+      },
+      {
+         "country" : "POL",
+         "longitude" : "7.5",
+         "source_id" : "7255",
+         "kbase_id" : "test-kb|....",
+         "region" : "Eastern Europe",
+         "nativenames" : "Mh-0",
+         "comment" : "NA",
+         "latitude" : "50.95"
+      },
+      {
+         "country" : "ITA",
+         "longitude" : "12.37",
+         "source_id" : "8337",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "Mir-0",
+         "comment" : "NA",
+         "latitude" : "44.0"
+      },
+      {
+         "country" : "ITA",
+         "longitude" : "9.65",
+         "source_id" : "7522",
+         "kbase_id" : "test-kb|....",
+         "region" : "Southern Europe",
+         "nativenames" : "Mr-0",
+         "comment" : "NA",
+         "latitude" : "44.15"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "9.3",
+         "source_id" : "6937",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Mrk-0",
+         "comment" : "NA",
+         "latitude" : "49.0"
+      },
+      {
+         "country" : "LIB",
+         "longitude" : "22.46",
+         "source_id" : "6939",
+         "kbase_id" : "test-kb|....",
+         "region" : "Cyrenaica (also Kyrenaika)",
+         "nativenames" : "Mt-0",
+         "comment" : "NA",
+         "latitude" : "32.34"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "8.3",
+         "source_id" : "6940",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Mz-0",
+         "comment" : "NA",
+         "latitude" : "50.3"
+      },
+      {
+         "country" : "RUS",
+         "longitude" : "34.15",
+         "source_id" : "7438",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "N13",
+         "comment" : "NA",
+         "latitude" : "61.36"
+      },
+      {
+         "country" : "FRA",
+         "longitude" : "1.5",
+         "source_id" : "8343",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Na-1",
+         "comment" : "NA",
+         "latitude" : "47.5"
+      },
+      {
+         "country" : "SUI",
+         "longitude" : "10.0",
+         "source_id" : "6942",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "Nd-1",
+         "comment" : "NA",
+         "latitude" : "50.0"
+      },
+      {
+         "country" : "UK",
+         "longitude" : "-0.6383",
+         "source_id" : "6943",
+         "kbase_id" : "test-kb|....",
+         "region" : "Northern Europe",
+         "nativenames" : "NFA-10",
+         "comment" : "NA",
+         "latitude" : "51.4083"
+      },
+      {
+         "country" : "UK",
+         "longitude" : "-0.6383",
+         "source_id" : "6944",
+         "kbase_id" : "test-kb|....",
+         "region" : "Northern Europe",
+         "nativenames" : "NFA-8",
+         "comment" : "NA",
+         "latitude" : "51.4083"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "13.2995",
+         "source_id" : "7275",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "No-0",
+         "comment" : "NA",
+         "latitude" : "51.0581"
+      },
+      {
+         "country" : "NED",
+         "longitude" : "4.45",
+         "source_id" : "6945",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "Nok-3",
+         "comment" : "NA",
+         "latitude" : "52.24"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "18.2763",
+         "source_id" : "6064",
+         "kbase_id" : "test-kb|....",
+         "region" : "N Sweden",
+         "nativenames" : "Nyl-2",
+         "comment" : "NA",
+         "latitude" : "62.9513"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "15.7735",
+         "source_id" : "7518",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "\u00c3\u0096M\u00c3\u00b62-1",
+         "comment" : "NA",
+         "latitude" : "56.1509"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "15.7735",
+         "source_id" : "7519",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "\u00c3\u0096M\u00c3\u00b62-3",
+         "comment" : "NA",
+         "latitude" : "56.1509"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "8.01161",
+         "source_id" : "7282",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Or-0",
+         "comment" : "NA",
+         "latitude" : "50.3827"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "16.1408",
+         "source_id" : "6074",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "\u00c3\u0096r-1",
+         "comment" : "NA",
+         "latitude" : "56.4573"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "18.37",
+         "source_id" : "8351",
+         "kbase_id" : "test-kb|....",
+         "region" : "C Sweden",
+         "nativenames" : "Ost-0",
+         "comment" : "NA",
+         "latitude" : "60.25"
+      },
+      {
+         "country" : "NOR",
+         "longitude" : "6.13",
+         "source_id" : "6946",
+         "kbase_id" : "test-kb|....",
+         "region" : "Northern Europe",
+         "nativenames" : "Oy-0",
+         "comment" : "NA",
+         "latitude" : "60.23"
+      },
+      {
+         "country" : "ITA",
+         "longitude" : "13.22",
+         "source_id" : "8353",
+         "kbase_id" : "test-kb|....",
+         "region" : "Sicily",
+         "nativenames" : "Pa-1",
+         "comment" : "NA",
+         "latitude" : "38.07"
+      },
+      {
+         "country" : "RUS",
+         "longitude" : "56.3167",
+         "source_id" : "8354",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "Per-1",
+         "comment" : "NA",
+         "latitude" : "58.0"
+      },
+      {
+         "country" : "RUS",
+         "longitude" : "29.0",
+         "source_id" : "7296",
+         "kbase_id" : "test-kb|....",
+         "region" : "Eastern Europe",
+         "nativenames" : "Petergof",
+         "comment" : "NA",
+         "latitude" : "59.0"
+      },
+      {
+         "country" : "ITA",
+         "longitude" : "11.2547",
+         "source_id" : "8243",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "PHW-2",
+         "comment" : "NA",
+         "latitude" : "43.7703"
+      },
+      {
+         "country" : "ESP",
+         "longitude" : "2.25",
+         "source_id" : "8357",
+         "kbase_id" : "test-kb|....",
+         "region" : "Southern Europe",
+         "nativenames" : "Pla-0",
+         "comment" : "NA",
+         "latitude" : "41.5"
+      },
+      {
+         "country" : "USA",
+         "longitude" : "-86.3253",
+         "source_id" : "7526",
+         "kbase_id" : "test-kb|....",
+         "region" : "Midwest",
+         "nativenames" : "Pna-10",
+         "comment" : "NA",
+         "latitude" : "42.0945"
+      },
+      {
+         "country" : "USA",
+         "longitude" : "-86.3253",
+         "source_id" : "7523",
+         "kbase_id" : "test-kb|....",
+         "region" : "Midwest",
+         "nativenames" : "Pna-17",
+         "comment" : "NA",
+         "latitude" : "42.0945"
+      },
+      {
+         "country" : "CAN",
+         "longitude" : "-123.206",
+         "source_id" : "7306",
+         "kbase_id" : "test-kb|....",
+         "region" : "Pacific Northwest",
+         "nativenames" : "Pog-0",
+         "comment" : "NA",
+         "latitude" : "49.2655"
+      },
+      {
+         "country" : "ESP",
+         "longitude" : "-6.0",
+         "source_id" : "8213",
+         "kbase_id" : "test-kb|....",
+         "region" : "Southern Europe",
+         "nativenames" : "Pro-0",
+         "comment" : "NA",
+         "latitude" : "43.25"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "16.36",
+         "source_id" : "6951",
+         "kbase_id" : "test-kb|....",
+         "region" : "Eastern Europe",
+         "nativenames" : "Pu2-23",
+         "comment" : "NA",
+         "latitude" : "49.42"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "16.36",
+         "source_id" : "6956",
+         "kbase_id" : "test-kb|....",
+         "region" : "Eastern Europe",
+         "nativenames" : "Pu2-7",
+         "comment" : "NA",
+         "latitude" : "49.42"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "16.36",
+         "source_id" : "6957",
+         "kbase_id" : "test-kb|....",
+         "region" : "Eastern Europe",
+         "nativenames" : "Pu2-8",
+         "comment" : "NA",
+         "latitude" : "49.42"
+      },
+      {
+         "country" : "FRA",
+         "longitude" : "3.3",
+         "source_id" : "6958",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Ra-0",
+         "comment" : "NA",
+         "latitude" : "46.0"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "16.0",
+         "source_id" : "8365",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "Rak-2",
+         "comment" : "NA",
+         "latitude" : "49.0"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "8.5",
+         "source_id" : "8411",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "Rd-0",
+         "comment" : "NA",
+         "latitude" : "50.5"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "8.5",
+         "source_id" : "8366",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "Rd-0",
+         "comment" : "NA",
+         "latitude" : "50.5"
+      },
+      {
+         "country" : "FRA",
+         "longitude" : "-1.41",
+         "source_id" : "6959",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Ren-1",
+         "comment" : "NA",
+         "latitude" : "48.5"
+      },
+      {
+         "country" : "FRA",
+         "longitude" : "-1.41",
+         "source_id" : "6960",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Ren-11",
+         "comment" : "NA",
+         "latitude" : "48.5"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "13.4504",
+         "source_id" : "8369",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Rev-1",
+         "comment" : "NA",
+         "latitude" : "55.6942"
+      },
+      {
+         "country" : "USA",
+         "longitude" : "-86.511",
+         "source_id" : "7524",
+         "kbase_id" : "test-kb|....",
+         "region" : "Midwest",
+         "nativenames" : "Rmx-A02",
+         "comment" : "NA",
+         "latitude" : "42.036"
+      },
+      {
+         "country" : "USA",
+         "longitude" : "-86.511",
+         "source_id" : "7525",
+         "kbase_id" : "test-kb|....",
+         "region" : "Midwest",
+         "nativenames" : "Rmx-A180",
+         "comment" : "NA",
+         "latitude" : "42.036"
+      },
+      {
+         "country" : "USA",
+         "longitude" : "-86.4251",
+         "source_id" : "7515",
+         "kbase_id" : "test-kb|....",
+         "region" : "Midwest",
+         "nativenames" : "RRS-10",
+         "comment" : "NA",
+         "latitude" : "41.5609"
+      },
+      {
+         "country" : "USA",
+         "longitude" : "-86.4251",
+         "source_id" : "7514",
+         "kbase_id" : "test-kb|....",
+         "region" : "Midwest",
+         "nativenames" : "RRS-7",
+         "comment" : "NA",
+         "latitude" : "41.5609"
+      },
+      {
+         "country" : "RUS",
+         "longitude" : "34.0",
+         "source_id" : "8374",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "Rsch-4",
+         "comment" : "NA",
+         "latitude" : "56.3"
+      },
+      {
+         "country" : "UKR",
+         "longitude" : "38.28",
+         "source_id" : "7323",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "Rubezhnoe-1",
+         "comment" : "NA",
+         "latitude" : "49.0"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "13.74",
+         "source_id" : "8247",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "San-2",
+         "comment" : "NA",
+         "latitude" : "56.07"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "18.0",
+         "source_id" : "8376",
+         "kbase_id" : "test-kb|....",
+         "region" : "N Sweden",
+         "nativenames" : "Sanna-2",
+         "comment" : "NA",
+         "latitude" : "62.69"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "14.24",
+         "source_id" : "8378",
+         "kbase_id" : "test-kb|....",
+         "region" : "Eastern Europe",
+         "nativenames" : "Sap-0",
+         "comment" : "NA",
+         "latitude" : "49.49"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "15.8833",
+         "source_id" : "8412",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "Sav-0",
+         "comment" : "NA",
+         "latitude" : "49.1833"
+      },
+      {
+         "country" : "ESP",
+         "longitude" : "-3.53333",
+         "source_id" : "6961",
+         "kbase_id" : "test-kb|....",
+         "region" : "Southern Europe",
+         "nativenames" : "Se-0",
+         "comment" : "NA",
+         "latitude" : "38.3333"
+      },
+      {
+         "country" : "USA",
+         "longitude" : "-122.2",
+         "source_id" : "8245",
+         "kbase_id" : "test-kb|....",
+         "region" : "Pacific Northwest",
+         "nativenames" : "Seattle-0",
+         "comment" : "NA",
+         "latitude" : "47.0"
+      },
+      {
+         "country" : "TJK",
+         "longitude" : "68.48",
+         "source_id" : "6962",
+         "kbase_id" : "test-kb|....",
+         "region" : "Central Asia",
+         "nativenames" : "Shahdara",
+         "comment" : "NA",
+         "latitude" : "38.35"
+      },
+      {
+         "country" : "TJK",
+         "longitude" : "68.48",
+         "source_id" : "6963",
+         "kbase_id" : "test-kb|....",
+         "region" : "Central Asia",
+         "nativenames" : "Sorbo",
+         "comment" : "NA",
+         "latitude" : "38.35"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "16.0",
+         "source_id" : "6964",
+         "kbase_id" : "test-kb|....",
+         "region" : "C Sweden",
+         "nativenames" : "Spr1-2",
+         "comment" : "NA",
+         "latitude" : "56.3"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "14.1576",
+         "source_id" : "6965",
+         "kbase_id" : "test-kb|....",
+         "region" : "C Sweden",
+         "nativenames" : "Spr1-6",
+         "comment" : "NA",
+         "latitude" : "58.4173"
+      },
+      {
+         "country" : "UK",
+         "longitude" : "-0.6383",
+         "source_id" : "6966",
+         "kbase_id" : "test-kb|....",
+         "region" : "Northern Europe",
+         "nativenames" : "Sq-1",
+         "comment" : "NA",
+         "latitude" : "51.4083"
+      },
+      {
+         "country" : "UK",
+         "longitude" : "-0.6383",
+         "source_id" : "6967",
+         "kbase_id" : "test-kb|....",
+         "region" : "Northern Europe",
+         "nativenames" : "Sq-8",
+         "comment" : "NA",
+         "latitude" : "51.4083"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "18.0",
+         "source_id" : "8387",
+         "kbase_id" : "test-kb|....",
+         "region" : "C Sweden",
+         "nativenames" : "St-0",
+         "comment" : "NA",
+         "latitude" : "59.0"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "11.8558",
+         "source_id" : "7346",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Ste-0",
+         "comment" : "NA",
+         "latitude" : "52.6058"
+      },
+      {
+         "country" : "RUS",
+         "longitude" : "36.0",
+         "source_id" : "8388",
+         "kbase_id" : "test-kb|....",
+         "region" : "Eastern Europe",
+         "nativenames" : "Stw-0",
+         "comment" : "NA",
+         "latitude" : "52.0"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "14.5",
+         "source_id" : "8389",
+         "kbase_id" : "test-kb|....",
+         "region" : "Eastern Europe",
+         "nativenames" : "Ta-0",
+         "comment" : "NA",
+         "latitude" : "49.5"
+      },
+      {
+         "country" : "FIN",
+         "longitude" : "23.5",
+         "source_id" : "6968",
+         "kbase_id" : "test-kb|....",
+         "region" : "Northern Europe",
+         "nativenames" : "Tamm-2",
+         "comment" : "NA",
+         "latitude" : "60.0"
+      },
+      {
+         "country" : "FIN",
+         "longitude" : "23.5",
+         "source_id" : "6969",
+         "kbase_id" : "test-kb|....",
+         "region" : "Northern Europe",
+         "nativenames" : "Tamm-27",
+         "comment" : "NA",
+         "latitude" : "60.0"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "13.85",
+         "source_id" : "6243",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Tottarp-2",
+         "comment" : "NA",
+         "latitude" : "55.95"
+      },
+      {
+         "country" : "ESP",
+         "longitude" : "2.93056",
+         "source_id" : "6970",
+         "kbase_id" : "test-kb|....",
+         "region" : "Southern Europe",
+         "nativenames" : "Ts-1",
+         "comment" : "NA",
+         "latitude" : "41.7194"
+      },
+      {
+         "country" : "ESP",
+         "longitude" : "2.93056",
+         "source_id" : "6971",
+         "kbase_id" : "test-kb|....",
+         "region" : "Southern Europe",
+         "nativenames" : "Ts-5",
+         "comment" : "NA",
+         "latitude" : "41.7194"
+      },
+      {
+         "country" : "JPN",
+         "longitude" : "136.31",
+         "source_id" : "6972",
+         "kbase_id" : "test-kb|....",
+         "region" : "Eastern Asia",
+         "nativenames" : "Tsu-1",
+         "comment" : "NA",
+         "latitude" : "34.43"
+      },
+      {
+         "country" : "ITA",
+         "longitude" : "7.5",
+         "source_id" : "8395",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "Tu-0",
+         "comment" : "NA",
+         "latitude" : "45.0"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "13.97",
+         "source_id" : "8426",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Ull1-1",
+         "comment" : "NA",
+         "latitude" : "56.06"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "13.9707",
+         "source_id" : "6973",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Ull2-3",
+         "comment" : "NA",
+         "latitude" : "56.0648"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "13.9707",
+         "source_id" : "6974",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Ull2-5",
+         "comment" : "NA",
+         "latitude" : "56.0648"
+      },
+      {
+         "country" : "AUT",
+         "longitude" : "14.45",
+         "source_id" : "6975",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Uod-1",
+         "comment" : "NA",
+         "latitude" : "48.3"
+      },
+      {
+         "country" : "AUT",
+         "longitude" : "14.45",
+         "source_id" : "6976",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Uod-7",
+         "comment" : "NA",
+         "latitude" : "48.3"
+      },
+      {
+         "country" : "CAN",
+         "longitude" : "-123.0",
+         "source_id" : "6977",
+         "kbase_id" : "test-kb|....",
+         "region" : "Pacific Northwest",
+         "nativenames" : "Van-0",
+         "comment" : "NA",
+         "latitude" : "49.3"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "14.334",
+         "source_id" : "7516",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "V\u00c3\u00a5r2-1",
+         "comment" : "NA",
+         "latitude" : "55.58"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "14.334",
+         "source_id" : "7517",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "V\u00c3\u00a5r2-6",
+         "comment" : "NA",
+         "latitude" : "55.58"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "16.6333",
+         "source_id" : "9058",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "V\u00c3\u00a4stervik",
+         "comment" : "NA",
+         "latitude" : "57.75"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "15.8",
+         "source_id" : "8249",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Vimmerby",
+         "comment" : "NA",
+         "latitude" : "57.7"
+      },
+      {
+         "country" : "SWE",
+         "longitude" : "13.9167",
+         "source_id" : "9057",
+         "kbase_id" : "test-kb|....",
+         "region" : "S Sweden",
+         "nativenames" : "Vinsl\u00c3\u00b6v",
+         "comment" : "NA",
+         "latitude" : "56.1"
+      },
+      {
+         "country" : "POL",
+         "longitude" : "21.0",
+         "source_id" : "6978",
+         "kbase_id" : "test-kb|....",
+         "region" : "Eastern Europe",
+         "nativenames" : "Wa-1",
+         "comment" : "NA",
+         "latitude" : "52.3"
+      },
+      {
+         "country" : "USA",
+         "longitude" : "-71.2825",
+         "source_id" : "7477",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "WAR",
+         "comment" : "NA",
+         "latitude" : "41.7302"
+      },
+      {
+         "country" : "SUI",
+         "longitude" : "8.26",
+         "source_id" : "6979",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Wei-0",
+         "comment" : "NA",
+         "latitude" : "47.25"
+      },
+      {
+         "country" : "LTU",
+         "longitude" : "",
+         "source_id" : "100000",
+         "kbase_id" : "test-kb|....",
+         "region" : "",
+         "nativenames" : "Wil-1-Dean-Lab",
+         "comment" : "NA",
+         "latitude" : ""
+      },
+      {
+         "country" : "RUS",
+         "longitude" : "30.0",
+         "source_id" : "6980",
+         "kbase_id" : "test-kb|....",
+         "region" : "Eastern Europe",
+         "nativenames" : "Ws-0",
+         "comment" : "NA",
+         "latitude" : "52.3"
+      },
+      {
+         "country" : "RUS",
+         "longitude" : "30.0",
+         "source_id" : "6981",
+         "kbase_id" : "test-kb|....",
+         "region" : "Eastern Europe",
+         "nativenames" : "Ws-2",
+         "comment" : "NA",
+         "latitude" : "52.3"
+      },
+      {
+         "country" : "GER",
+         "longitude" : "9.3",
+         "source_id" : "6982",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Wt-5",
+         "comment" : "NA",
+         "latitude" : "52.3"
+      },
+      {
+         "country" : "USA",
+         "longitude" : "-119.35",
+         "source_id" : "6983",
+         "kbase_id" : "test-kb|....",
+         "region" : "Northern California",
+         "nativenames" : "Yo-0",
+         "comment" : "NA",
+         "latitude" : "37.45"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "16.2544",
+         "source_id" : "6984",
+         "kbase_id" : "test-kb|....",
+         "region" : "Moravia",
+         "nativenames" : "Zdr-1",
+         "comment" : "NA",
+         "latitude" : "49.3853"
+      },
+      {
+         "country" : "CZE",
+         "longitude" : "16.2544",
+         "source_id" : "6985",
+         "kbase_id" : "test-kb|....",
+         "region" : "Moravia",
+         "nativenames" : "Zdr-6",
+         "comment" : "NA",
+         "latitude" : "49.3853"
+      },
+      {
+         "country" : "SUI",
+         "longitude" : "8.55",
+         "source_id" : "7418",
+         "kbase_id" : "test-kb|....",
+         "region" : "Western Europe",
+         "nativenames" : "Zu-1",
+         "comment" : "NA",
+         "latitude" : "47.3667"
+      }
+   ],
+   "originator" : "atwell et al",
+   "GwasPopulation_description" : "Arabidopsis thaliana Gwas population Atwell et al., 198 individuals",
+   "comments" : "This is a test upload",
+   "genome" : {
+      "source" : "KBase central store",
+      "kbase_genome_name" : "Arabidopsis thaliana",
+      "source_genome_name" : "Athaliana.TAIR10",
+      "kbase_genome_id" : "kb|g.3899"
+   },
+   "pubmed" : "PMC3023908"
+}

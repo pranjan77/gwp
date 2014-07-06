@@ -1,0 +1,1 @@
+gwas_validate_population.pl ws_url ws_id ../t/data/population.json ../t/data/population_data.txt 
