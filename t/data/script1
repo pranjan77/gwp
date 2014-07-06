@@ -1,1 +1,8 @@
-gwas_validate_population.pl ws_url ws_id ../t/data/population.json ../t/data/population_data.txt 
+
+#Upload Population object
+perl ../../scripts/gwas_create_population.pl ws_url ws_id population.json population_data.txt 
+perl upload_object.pl document.json KBaseGwasData.GwasPopulation pranjan77:testgw arapop1
+ws-get arapop1 -w pranjan77:testgw -p >test.json
+
+
+#Upload trait object

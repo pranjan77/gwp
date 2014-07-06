@@ -58,8 +58,8 @@ my $ws_doc;
 $ws_doc->{"genome"}=\%genome_details;
 $ws_doc->{"GwasPopulation_description"}=$hash_metadata->{'GwasPopulation_description'};
 $ws_doc->{"originator"}=$hash_metadata->{'originator'}; 
-$ws_doc->{"pubmed"}=$hash_metadata->{'pubmed'}; ;
-$ws_doc->{"comments"}=$hash_metadata->{'comments'}; 
+$ws_doc->{"pubmed_id"}=$hash_metadata->{'pubmed'}; ;
+$ws_doc->{"comment"}=$hash_metadata->{'comments'}; 
 
 
 open (FILE2, $uploaded_population_file) || &return_error ("Could not open file '$uploaded_population_file' for reading. ");
@@ -82,7 +82,7 @@ foreach my $line (@data){
   $obs_unit{'region'}=$region;
   $obs_unit{'country'}=$country;
   $obs_unit{'comment'}=$comment;
-  $obs_unit{'kbase_id'}=$kbase_id;
+  $obs_unit{'kbase_obs_unit_id'}=$kbase_id;
   push (@obs_unit_details, \%obs_unit);
 }
 
