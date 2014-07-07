@@ -1,0 +1,2 @@
+Population object id	assay	originator	minor allele frequency	pubmed_id	comment
+arapop1	256 K SNP array based genotyping	atwell et al	NA	PMC3023908	NA

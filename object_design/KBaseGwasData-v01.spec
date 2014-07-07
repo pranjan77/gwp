@@ -273,18 +273,19 @@ module KBaseGwasData {
 
 
 /*
-      @optional emmax_hapmap_shock_id tassel_hapmap_shock_id 
+      @optional emmax_format_hapmap_shock_id tassel_format_hapmap_shock_id 
 
       vcf_shock_id - vcf_shock_id
-      emmax_hapmap_shock_id - emmax_hapmap_shock_id
-      tassel_hapmap_shock_id - tassel_hapmap_shock_id
+      emmax_format_hapmap_shock_id - emmax_hapmap_shock_id
+      tassel_format_hapmap_shock_id - tassel_hapmap_shock_id
  
 */
 
    typedef structure {
+      string shock_url;
       string vcf_shock_id; 
-      string emmax_hapmap_shock_id;
-      string tassel_hapmap_shock_id;
+      string emmax_format_hapmap_shock_id;
+      string tassel_format_hapmap_shock_id;
    } filetypes;
 
 
@@ -298,7 +299,7 @@ module KBaseGwasData {
 
 
       GwasPopulation_obj_id - object id of the GwasPopulation
-      filetype - filetype for the vcf file eg. VCF, HAPMAP, PLINK
+      filetypes - filetype for the vcf file eg. VCF, HAPMAP, PLINK
       comment - Placeholder for comments
       assay - The assay method for genotyping or identifying SNPs
       originator - PI / LAB
@@ -306,7 +307,7 @@ module KBaseGwasData {
       variation_file - shock property of variation file
       string GwasPopulationVariation_obj_id - parent object id: VCF-FILTERING use case
       minor_allele_frequency - minor allele frequency filtering
-     @optional GwasPopulationVariation_obj_id minor_allele_frequency 
+     @optional  parent_variation_obj_id minor_allele_frequency 
 
      Search indexing: Donot index --> variation_file
 
@@ -315,13 +316,16 @@ module KBaseGwasData {
    typedef structure {
 
       string GwasPopulation_obj_id; 
+      GwasPopulation_obj_id popid;
       string comment; 
       string assay; 
       string originator;
       genome_details genome;
       filetypes files;
+      string pubmed_id;
       string minor_allele_frequency; 
-      string GwasPopulationVariation_obj_id;
+      string parent_variation_obj_id;
+      list <tuple <string obs, string kbase_obs_unit>>  obs_units;
 
    } GwasPopulationVariation;
 
