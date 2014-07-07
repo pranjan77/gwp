@@ -6,3 +6,7 @@ ws-get arapop1 -w pranjan77:testgw -p >test.json
 
 
 #Upload trait object
+perl phenotype/preparemetadata.pl phenotype/phenotypemetadata.txt  |python -m json.tool >phenotype/phenotype-metadata.json
+
+perl ../../scripts/gwas_create_traits.pl https://kbase.us/services/ws pranjan77:testgw phenotype/phenotype-metadata.json phenotype/phenotypedata.txt
+

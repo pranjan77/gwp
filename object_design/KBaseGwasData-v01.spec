@@ -348,6 +348,7 @@ module KBaseGwasData {
 
    typedef structure{
       genome_details genome;
+      GwasPopulation_obj_id popid; 
       string GwasPopulation_obj_id; 
       string originator; 
       string trait_ontology_id; 
