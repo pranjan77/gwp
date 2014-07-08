@@ -34,6 +34,7 @@ my $s_url                    = $ARGV[4];
 my $s_id                     = $ARGV[5];
 my $token                    = $ENV{KB_AUTH_TOKEN};
 
+
 my $wsc = Bio::KBase::workspace::Client->new($ws_url, token=>$token );
 
 open (FILE, $metadata_json_file) || &return_error("Could not open file '$metadata_json_file' for reading. ");
