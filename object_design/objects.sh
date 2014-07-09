@@ -16,7 +16,7 @@
 
 #ws-typespec-register --user  pranjan77 --typespec  gen5.spec --add 'GwasExperimentSummary'  
 #ws-typespec-register --user  pranjan77 --typespec  gen5.spec --add 'GwasExperimentSummary' --commit 
-ws-typespec-register --user  pranjan77 --typespec KBaseGwasData-v01.spec   --commit 
+ws-typespec-register --user  pranjan77 --typespec KBaseGwasData.spec   --commit 
 ws-typespec-register --release KBaseGwasData --user pranjan77
 
 #exit

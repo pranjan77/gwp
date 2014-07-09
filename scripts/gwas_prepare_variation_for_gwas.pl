@@ -21,7 +21,7 @@ use Scalar::Util qw(looks_like_number);
 umask 000;
 
 
-if(@ARGV != 6) {
+if(@ARGV != 7) {
   print_usage();
   exit __LINE__;
 }
@@ -32,6 +32,7 @@ my $shock_url                = $ARGV[2];
 my $inid                     = $ARGV[3];
 my $outid                    = $ARGV[4];
 my $minor_allele_frequency   = $ARGV[5];
+my $comment                  = $ARGV[6];
 
 #my $token                    = $ENV{KB_AUTH_TOKEN};
 my $to = Bio::KBase::AuthToken->new();
@@ -70,6 +71,7 @@ $cmd .= " | $vcftools --vcf - --maf $minor_allele_frequency   --max-alleles 2 --
 $obj->{data}->{files}->{vcf_shock_id} = upload2shock($output_file);
 $obj->{data}->{minor_allele_frequency} = $minor_allele_frequency;
 
+$obj->{data}->{parent_variation_obj_id} = "$wsid/$inid";
 $cmd = "cat $output_file |gwas_vcf_to_hapmap_emma.pl";
 `$cmd`;
 $obj->{data}->{files}->{emmax_format_hapmap_shock_id} = upload2shock("out.tped");
@@ -97,7 +99,7 @@ sub upload2shock {
 }
 
 
-
+#TODO:Fix the usage
 sub print_usage {
   &return_error("USAGE: gwas_validate_population.pl ws_url ws_id metadata data");
 }

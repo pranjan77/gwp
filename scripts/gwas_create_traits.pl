@@ -136,7 +136,7 @@ if ($list_germplasm_not_found){
   $ws_doc->{'protocol'}=$hash_metadata->{'protocol'};
   my $population_obj_ref = $ws1 . "/" .$hash_metadata->{'GwasPopulation_obj_id'}; 
   $ws_doc->{'popid'}= $population_obj_ref;
-  $ws_doc->{'GwasPopulation_obj_id'}= $hash_metadata->{'GwasPopulation_obj_id'};
+  $ws_doc->{'GwasPopulation_obj_id'}= $ws1 . "/" . $hash_metadata->{'GwasPopulation_obj_id'};
   $ws_doc->{'originator'}= $hash_metadata->{'originator'};
   $ws_doc->{'trait_ontology_id'}= $hash_metadata->{'trait_ontology_id'};
   $ws_doc->{'trait_name'}= $trait_name;

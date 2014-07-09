@@ -83,12 +83,12 @@ foreach my $line (@obs_units1){
 my $ws_doc;
 
 my $population_obj_ref = $ws1 . "/" .$hash_metadata->{'GwasPopulation_obj_id'}; 
-$ws_doc->{'popid'}= $population_obj_ref;
-$ws_doc->{'GwasPopulation_obj_id'}= $hash_metadata->{'GwasPopulation_obj_id'};
+$ws_doc->{'GwasPopulation_obj_id'}= $population_obj_ref;
+#$ws_doc->{'GwasPopulation_obj_id'}= $hash_metadata->{'GwasPopulation_obj_id'};
 $ws_doc->{'assay'}= $hash_metadata->{'assay'};
 $ws_doc->{'originator'}= $hash_metadata->{'originator'};
 $ws_doc->{'genome'}= $genome;
-$ws_doc->{'parent_variation_obj_id'}= "NA";
+#$ws_doc->{'parent_variation_obj_id'}= "NA";
 $ws_doc->{'minor_allele_frequency'}= "NA";
 $ws_doc->{'obs_units'}= \@obs_units;
 
@@ -108,17 +108,13 @@ $ws_doc->{'comment'}= $comment;
 $ws_doc->{"pubmed_id"}=$hash_metadata->{'pubmed_id'}; ;
 
 
-my $output_obj_name = $hash_metadata->{'variation_output_name'}; 
-
-
-my $popname =  $hash_metadata->{'GwasPopulation_obj_id'} . ".var";
+my $outid = $hash_metadata->{'variation_output_name'}; 
 
 #open OUT, ">document.json" || &return_error("Cannot open document.json for writing");
 #print OUT to_json($ws_doc, { ascii => 1, pretty => 1 });
 #close OUT;
 
-$output_obj_name = $popname if (!$output_obj_name);
-my $metadata = $wsc->save_object({id =>"$output_obj_name", type =>"KBaseGwasData.GwasPopulationVariation" , auth => $token,  data => $ws_doc, workspace => $ws1});
+my $metadata = $wsc->save_object({id =>"$outid", type =>"KBaseGwasData.GwasPopulationVariation" , auth => $token,  data => $ws_doc, workspace => $ws1});
 #print to_json($ws_doc);
 
 
