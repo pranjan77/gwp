@@ -93,6 +93,13 @@ $wc->save_objects({workspace => $wsid, objects => [{type=>'KBaseGwasData.GwasPop
 
 #system ("rm -f tmp.vcf");
 #system ("rm -f out.tped");
+#out.IBS.kinf  out.log  out.tfam  out.tped 
+
+system ("rm -f out.IBS.kinf");
+system ("rm -f out.log");
+system ("rm -f out.tfam");
+system ("rm -f out.tped");
+
 
 exit(0);
 

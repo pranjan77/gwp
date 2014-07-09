@@ -1,12 +1,13 @@
 #!/usr/bin/env perl
 
-# this script validates a file type and generates a workspace
-# object document for uploading into a workspace.
+#!/usr/bin/env perl
+
+# this script takes gwas population metadata json file and data text file as input
+# and creates a GwasPopulation type workspace object
 
 use strict;
-use warnings;
-no warnings('once');
-
+#use warnings;
+#no warnings('once');
 use POSIX;
 use JSON;
 
@@ -14,28 +15,37 @@ use Bio::KBase::workspace::Client;
 use Data::Dumper;
 use  Bio::KBase::AuthToken;
 
+use Data::Dumper;
+use Bio::KBase::CDMI::CDMIClient;
+use Bio::KBase::Utilities::ScriptThing;
+my $cdmie = Bio::KBase::CDMI::Client->new("http://bio-data-1.mcs.anl.gov/services/cdmi_api");
+
+
+
 umask 000;
 
-if(@ARGV != 4) {
+#TODO: Fix usage
+if(@ARGV != 5) {
   print_usage();
   exit __LINE__;
 }
 
 my $ws_url              = $ARGV[0];
 my $ws1                 = $ARGV[1];
-my $metadata_json_file  = $ARGV[2];
+my $metadata_file       = $ARGV[2];
 my $uploaded_trait_file = $ARGV[3];
-my $token               = $ENV{KB_AUTH_TOKEN};
+my $environment         = $ARGV[4];
 
+my $token               = $ENV{KB_AUTH_TOKEN};
+my $to = Bio::KBase::AuthToken->new();
+$token = $to->{token};
 my $wsc = Bio::KBase::workspace::Client->new($ws_url, token=>$token );
 
 
 
+
+
 my %trait_data_input = ();
-
-
-
-
 
 #Fill trait_data_input with trait_measurements for individuals in the population 
 
@@ -67,15 +77,36 @@ foreach my $trait (@trait_list){
 
 
 
+my $hash_metadata = {};
 
 
+if ($environment eq "local"){
 
+open (FILE, $metadata_file) || &return_error("Could not open file '$metadata_file' for reading.");
+ my @file = <FILE>;
+ close (FILE);
 
-open (FILE, $metadata_json_file) || &return_error("Could not open file '$metadata_json_file' for reading.");
-my $metadata_json = join ("", <FILE>);
-close (FILE);
+shift @file; #Remove header line
+#my %hash_metadata = ();
+my @trait_metadata = ();
 
-my $hash_metadata = from_json($metadata_json);
+foreach my $line (@file){
+  chomp($line);
+  my ($trait_name, $protocol, $trait_ontology_id, $gwaspopulation_object_id, $originator, $pubmed_id, $unit_of_measurement) = split ("\t", $line);  
+  my %trait_meta = ();
+  $trait_meta{'trait_name'}=$trait_name;
+  $trait_meta{'protocol'}=$protocol;
+  $trait_meta{'trait_ontology_id'}=$trait_ontology_id;
+  $trait_meta{'GwasPopulation_obj_id'}=$gwaspopulation_object_id;
+  $trait_meta{'originator'}=$originator;
+  $trait_meta{'pubmed_id'}=$pubmed_id;
+  $trait_meta{'unit_of_measure'}=$unit_of_measurement;
+
+  push (@trait_metadata, \%trait_meta);
+}
+
+$hash_metadata->{"BasicTraitInfo"}=\@trait_metadata;
+#print to_json (\%hash_metadata);
 $hash_metadata = $hash_metadata->{'BasicTraitInfo'};
 
 my @listOfTraits = @$hash_metadata;
@@ -83,6 +114,24 @@ foreach my $trait (@listOfTraits){
  &createIndividualTraitObject ($trait);
 }
 
+
+}
+
+
+elsif ($environment eq "web"){
+
+open (FILE, $metadata_file) || &return_error("Could not open file '$metadata_file' for reading.");
+my $metadata_json = join ("", <FILE>);
+close (FILE);
+
+$hash_metadata = from_json($metadata_json);
+$hash_metadata = $hash_metadata->{'BasicTraitInfo'};
+
+my @listOfTraits = @$hash_metadata;
+foreach my $trait (@listOfTraits){
+ &createIndividualTraitObject ($trait);
+}
+}
 
 
 
@@ -93,10 +142,12 @@ foreach my $trait (@listOfTraits){
 
 sub createIndividualTraitObject {
   my ($hash_metadata) = @_;
-
-
   my $trait_name = $hash_metadata->{'trait_name'};
   my $population_obj=$hash_metadata->{'GwasPopulation_obj_id'};
+
+  $population_obj=~s/\s*$//;
+  $population_obj=~s/^\s*//;
+
 
   my $type = "KBaseGwasData.GwasPopulation";
   my $object_data = $wsc->get_object({id => $population_obj,
@@ -153,7 +204,7 @@ if ($list_germplasm_not_found){
 #  close OUT;
 
 
-my $metadata = $wsc->save_object({id =>"T-$trait_name", type =>"KBaseGwasData.GwasPopulationTrait" , auth => $token,  data => $ws_doc, workspace => $ws1});
+my $metadata = $wsc->save_object({id =>"$trait_name", type =>"KBaseGwasData.GwasPopulationTrait" , auth => $token,  data => $ws_doc, workspace => $ws1});
 
 
 }

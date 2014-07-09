@@ -1,0 +1,2 @@
+Population object id	assay	originator	pubmed_id	comment
+Athalianapopulation1 	256 K SNP array based genotyping	atwell et al	PMC3023908	This is a test

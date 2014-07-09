@@ -250,7 +250,15 @@ $wc->save_object({id => $outid, type=>"KBaseGwasData.GwasTopVariations",
     meta=>{source=>"$wsid:$varinid,$traitinid,$kinshipinid by gwas_run_gwas"}});
 
 
-
+system ("rm -f association.txt.log");  
+system ("rm -f association.txt.ps "); 
+system ("rm -f association.txt.reml  ");
+system ("rm -f out.IBS.kinf  ");
+system ("rm -f out.tfam  ");
+system ("rm -f out.tped ");
+system ("rm -f topvars.txt "); 
+system ("rm -f trait.txt  ");
+system ("rm -f vars.txt");
 
 
 exit(0);

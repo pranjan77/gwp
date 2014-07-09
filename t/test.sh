@@ -1,24 +1,29 @@
+scriptdir=~/github/gwp/scripts
+ws_url=https://kbase.us/services/ws
+ws_id=pranjan77:gwas_test
+data_dir=sample_data
+shock_url=https://kbase.us/services/shock-api
 
 #Upload Population object
-#perl ../../scripts/gwas_create_population.pl ws_url ws_id population.json population_data.txt 
-#perl upload_object.pl document.json KBaseGwasData.GwasPopulation pranjan77:testgw arapop1
-#ws-get arapop1 -w pranjan77:testgw -p >test.json
+#perl $scriptdir/gwas_upload_population_data.pl $ws_url $ws_id $data_dir/population_metadata.txt $data_dir/population_data.txt Athalianapopulation1 local
 
+
+#Upload variation object
+#perl $scriptdir/gwas_create_population_variation.pl $ws_url $ws_id atpopvar1 $data_dir/variation_metadata.txt  $data_dir/test.vcf $shock_url NA local
 
 #Upload trait object
-#perl phenotype/preparemetadata.pl phenotype/phenotypemetadata.txt  |python -m json.tool >phenotype/phenotype-metadata.json
+#perl $scriptdir/gwas_create_traits.pl https://kbase.us/services/ws $ws_id $data_dir/trait_metadata.txt $data_dir/trait_data.txt local
 
-#perl ../../scripts/gwas_create_traits.pl https://kbase.us/services/ws pranjan77:testgw phenotype/phenotype-metadata.json phenotype/phenotypedata.txt
+#Prepare data for GWAS including minor allele frequency filtration
+#perl $scriptdir/gwas_prepare_variation_for_gwas.pl $ws_url $ws_id $shock_url atpopvar1  atpopvar1.filtered 0.05 'test'
 
-#perl ../../scripts/gwas_create_population_variation.pl https://kbase.us/services/ws pranjan77:testgw variation/variation-metadata.json ~/github/gwp_data/arabidopsis256ksnp.vcf https://kbase.us/services/shock-api f321ad26-a76a-4ae2-89fe-cbd0e07dde8e
+#Calculate kinship matrix
+#perl $scriptdir/gwas_calculate_kinship_matrix_emma.pl $ws_url $ws_id $shock_url atpopvar1.filtered  atpopvar1.filtered.kinship  'test'
 
-#perl ../../scripts/gwas_prepare_variation_for_gwas.pl https://kbase.us/services/ws pranjan77:testgw https://kbase.us/services/shock-api ara1.var ara1.var.filtered 0.05 'test'
+#Run Gwas analysis
+#perl $scriptdir/gwas_run_gwas_emma.pl $ws_url $ws_id $shock_url atpopvar1.filtered FLC atpopvar1.filtered.kinship  FLC.topvariations 'test'
 
-
-#perl ../../scripts/gwas_calculate_kinship_matrix_emma.pl https://kbase.us/services/ws pranjan77:testgw https://kbase.us/services/shock-api ara1.var.filtered ara1_kinship  'test'
-#perl ../../scripts/gwas_run_gwas_emma.pl https://kbase.us/services/ws pranjan77:testgw https://kbase.us/services/shock-api ara1.var.filtered T-FLC ara1_kinship  T-FLC.genelist 'test'
-
-
-perl ../../scripts/gwas_variations_to_genes.pl https://kbase.us/services/ws pranjan77:testgw T-FLC.genelist T-FLC.gene1  100  3  1000 'test'
+#Get genes for snps
+perl $scriptdir/gwas_variations_to_genes.pl $ws_url $ws_id FLC.topvariations FLC.genelist  100  3  1000 'test'
 
 
